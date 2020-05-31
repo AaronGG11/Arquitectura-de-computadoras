@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat May 23 17:48:06 2020
+# Process ID: 1132
+# Current directory: C:/Users/Aaron/Desktop/P12/Contador
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3460 C:\Users\Aaron\Desktop\P12\Contador\Contador.xpr
+# Log file: C:/Users/Aaron/Desktop/P12/Contador/vivado.log
+# Journal file: C:/Users/Aaron/Desktop/P12/Contador\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Aaron/Desktop/P12/Contador/Contador.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:44 ; elapsed = 00:00:21 . Memory (MB): peak = 908.566 ; gain = 291.629
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 23 17:49:50 2020...

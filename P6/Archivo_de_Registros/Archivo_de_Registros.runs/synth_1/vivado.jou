@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Mar 31 19:07:57 2020
+# Process ID: 2124
+# Current directory: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.runs/synth_1
+# Command line: vivado.exe -log archivoRegistros.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source archivoRegistros.tcl
+# Log file: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.runs/synth_1/archivoRegistros.vds
+# Journal file: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source archivoRegistros.tcl -notrace

@@ -1,0 +1,292 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun May 24 00:12:39 2020
+# Process ID: 4044
+# Current directory: C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.runs/synth_1
+# Command line: vivado.exe -log cartaASM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cartaASM.tcl
+# Log file: C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.runs/synth_1/cartaASM.vds
+# Journal file: C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cartaASM.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 424.582 ; gain = 127.609
+Command: synth_design -top cartaASM -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3676 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 688.227 ; gain = 238.816
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cartaASM' [C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.srcs/sources_1/new/cartaASM.vhd:13]
+INFO: [Synth 8-3491] module 'unidad_control' declared at 'C:/Users/Aaron/Desktop/P12/unidad_control/unidad_control.srcs/sources_1/new/unidad_control.vhd:4' bound to instance 'UC' of component 'unidad_control' [C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.srcs/sources_1/new/cartaASM.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'unidad_control' [C:/Users/Aaron/Desktop/P12/unidad_control/unidad_control.srcs/sources_1/new/unidad_control.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'unidad_control' (1#1) [C:/Users/Aaron/Desktop/P12/unidad_control/unidad_control.srcs/sources_1/new/unidad_control.vhd:17]
+INFO: [Synth 8-3491] module 'Registro' declared at 'C:/Users/Aaron/Desktop/P12/arreglo/arreglo.srcs/sources_1/new/Registro.vhd:5' bound to instance 'REG' of component 'Registro' [C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.srcs/sources_1/new/cartaASM.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'Registro' [C:/Users/Aaron/Desktop/P12/arreglo/arreglo.srcs/sources_1/new/Registro.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Registro' (2#1) [C:/Users/Aaron/Desktop/P12/arreglo/arreglo.srcs/sources_1/new/Registro.vhd:14]
+INFO: [Synth 8-3491] module 'Contador' declared at 'C:/Users/Aaron/Desktop/P12/Contador/Contador.srcs/sources_1/new/Contador.vhd:6' bound to instance 'CONT' of component 'Contador' [C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.srcs/sources_1/new/cartaASM.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'Contador' [C:/Users/Aaron/Desktop/P12/Contador/Contador.srcs/sources_1/new/Contador.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Contador' (3#1) [C:/Users/Aaron/Desktop/P12/Contador/Contador.srcs/sources_1/new/Contador.vhd:14]
+INFO: [Synth 8-3491] module 'Decodificador' declared at 'C:/Users/Aaron/Desktop/P12/Decodificador/Decodificador.srcs/sources_1/new/Decodificador.vhd:4' bound to instance 'DECO' of component 'Decodificador' [C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.srcs/sources_1/new/cartaASM.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'Decodificador' [C:/Users/Aaron/Desktop/P12/Decodificador/Decodificador.srcs/sources_1/new/Decodificador.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Decodificador' (4#1) [C:/Users/Aaron/Desktop/P12/Decodificador/Decodificador.srcs/sources_1/new/Decodificador.vhd:9]
+INFO: [Synth 8-3491] module 'Multiplexor' declared at 'C:/Users/Aaron/Desktop/P12/Multiplexor/Multiplexor.srcs/sources_1/new/Multiplexor.vhd:4' bound to instance 'MUX' of component 'Multiplexor' [C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.srcs/sources_1/new/cartaASM.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'Multiplexor' [C:/Users/Aaron/Desktop/P12/Multiplexor/Multiplexor.srcs/sources_1/new/Multiplexor.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Multiplexor' (5#1) [C:/Users/Aaron/Desktop/P12/Multiplexor/Multiplexor.srcs/sources_1/new/Multiplexor.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'cartaASM' (6#1) [C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.srcs/sources_1/new/cartaASM.vhd:13]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 760.031 ; gain = 310.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 760.031 ; gain = 310.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 760.031 ; gain = 310.621
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-802] inferred FSM for state register 'actual_reg' in module 'unidad_control'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      e0 |                              001 |                               00
+                      e1 |                              010 |                               01
+                      e2 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'actual_reg' using encoding 'one-hot' in module 'unidad_control'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 760.031 ; gain = 310.621
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module cartaASM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module unidad_control 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+Module Registro 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+Module Contador 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+Module Multiplexor 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 924.496 ; gain = 475.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 927.828 ; gain = 478.418
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CONT/aux_qb_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CONT/aux_qb_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CONT/aux_qb_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CONT/aux_qb_reg[2] )
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 928.004 ; gain = 478.594
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 929.816 ; gain = 480.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 929.816 ; gain = 480.406
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 929.816 ; gain = 480.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 929.816 ; gain = 480.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 929.816 ; gain = 480.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 929.816 ; gain = 480.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     1|
+|4     |LUT3 |     2|
+|5     |FDCE |     2|
+|6     |FDPE |     1|
+|7     |IBUF |     3|
+|8     |OBUF |    16|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+---------------+------+
+|      |Instance |Module         |Cells |
++------+---------+---------------+------+
+|1     |top      |               |    27|
+|2     |  UC     |unidad_control |     7|
++------+---------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 929.816 ; gain = 480.406
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 929.816 ; gain = 480.406
+Synthesis Optimization Complete : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 929.816 ; gain = 480.406
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 941.910 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1040.805 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:13 ; elapsed = 00:01:15 . Memory (MB): peak = 1040.805 ; gain = 616.223
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1040.805 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Aaron/Desktop/P12B/cartaASM/cartaASM.runs/synth_1/cartaASM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file cartaASM_utilization_synth.rpt -pb cartaASM_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 24 00:14:12 2020...

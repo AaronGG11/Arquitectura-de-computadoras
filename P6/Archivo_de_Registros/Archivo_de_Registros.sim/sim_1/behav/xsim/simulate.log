@@ -1,0 +1,102 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Error: File C:\Users\end user\Documents\6to Semestre Escom\Arquitectura de Computadoras\Practica 6\VECTORES1.TXT is already at the end of file, nothing to read
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 145 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: File C:\Users\end user\Documents\6to Semestre Escom\Arquitectura de Computadoras\Practica 6\VECTORES1.TXT is already at the end of file, nothing to read
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 155 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: File C:\Users\end user\Documents\6to Semestre Escom\Arquitectura de Computadoras\Practica 6\VECTORES1.TXT is already at the end of file, nothing to read
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 165 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: File C:\Users\end user\Documents\6to Semestre Escom\Arquitectura de Computadoras\Practica 6\VECTORES1.TXT is already at the end of file, nothing to read
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 175 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: File C:\Users\end user\Documents\6to Semestre Escom\Arquitectura de Computadoras\Practica 6\VECTORES1.TXT is already at the end of file, nothing to read
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC_VECTOR) End of string encountered
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd
+Error: STD_LOGIC_1164.READ(STD_ULOGIC) End of string encountered
+Time: 185 ns  Iteration: 1  Process: /tb_archivo/stim_proc  File: C:/Users/end user/Documents/6to Semestre Escom/Arquitectura de Computadoras/Practica 6/Archivo_de_Registros/Archivo_de_Registros.srcs/sim_1/new/tb_archivo.vhd

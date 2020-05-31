@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat May 23 19:05:10 2020
+# Process ID: 3584
+# Current directory: C:/Users/Aaron/Desktop/P12/Decodificador/Decodificador.runs/synth_1
+# Command line: vivado.exe -log Decodificador.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Decodificador.tcl
+# Log file: C:/Users/Aaron/Desktop/P12/Decodificador/Decodificador.runs/synth_1/Decodificador.vds
+# Journal file: C:/Users/Aaron/Desktop/P12/Decodificador/Decodificador.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Decodificador.tcl -notrace

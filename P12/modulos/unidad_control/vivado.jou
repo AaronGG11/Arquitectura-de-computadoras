@@ -1,0 +1,139 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun May 24 16:15:20 2020
+# Process ID: 2648
+# Current directory: C:/Users/Aaron/Desktop/P12/Componentes/unidad_control
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent200 C:\Users\Aaron\Desktop\P12\Componentes\unidad_control\unidad_control.xpr
+# Log file: C:/Users/Aaron/Desktop/P12/Componentes/unidad_control/vivado.log
+# Journal file: C:/Users/Aaron/Desktop/P12/Componentes/unidad_control\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Aaron/Desktop/P12/Componentes/unidad_control/unidad_control.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Aaron/Desktop/P12/Componentes/unidad_control/unidad_control.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Aaron/Desktop/P12/Componentes/unidad_control/unidad_control.srcs/sim_1/new/tb_unidad_control.vhd w ]
+add_files -fileset sim_1 C:/Users/Aaron/Desktop/P12/Componentes/unidad_control/unidad_control.srcs/sim_1/new/tb_unidad_control.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_unidad_control.tcl
+close_sim
+close_project
+open_project C:/Users/Aaron/Desktop/P12/Componentes/arreglo/arreglo.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Aaron/Desktop/P12/Componentes/arreglo/arreglo.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Aaron/Desktop/P12/Componentes/arreglo/arreglo.srcs/sim_1/new/tb_Registro.vhd w ]
+add_files -fileset sim_1 C:/Users/Aaron/Desktop/P12/Componentes/arreglo/arreglo.srcs/sim_1/new/tb_Registro.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+reset_run synth_1
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+launch_simulation
+source tb_Registro.tcl
+close_sim
+close_project
+open_project C:/Users/Aaron/Desktop/P12/Componentes/Contador/Contador.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Aaron/Desktop/P12/Componentes/Contador/Contador.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Aaron/Desktop/P12/Componentes/Contador/Contador.srcs/sim_1/new/tb_Contador.vhd w ]
+add_files -fileset sim_1 C:/Users/Aaron/Desktop/P12/Componentes/Contador/Contador.srcs/sim_1/new/tb_Contador.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_Contador.tcl
+close_sim
+close_project
+open_project C:/Users/Aaron/Desktop/P12/Componentes/Decodificador/Decodificador.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Aaron/Desktop/P12/Componentes/Decodificador/Decodificador.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Aaron/Desktop/P12/Componentes/Decodificador/Decodificador.srcs/sim_1/new/tb_Decodificador.vhd w ]
+add_files -fileset sim_1 C:/Users/Aaron/Desktop/P12/Componentes/Decodificador/Decodificador.srcs/sim_1/new/tb_Decodificador.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_Decodificador.tcl
+close_sim
+close_project
+open_project C:/Users/Aaron/Desktop/P12/Componentes/Multiplexor/Multiplexor.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Aaron/Desktop/P12/Componentes/Multiplexor/Multiplexor.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Aaron/Desktop/P12/Componentes/Multiplexor/Multiplexor.srcs/sim_1/new/tb_Multiplexor.vhd w ]
+add_files -fileset sim_1 C:/Users/Aaron/Desktop/P12/Componentes/Multiplexor/Multiplexor.srcs/sim_1/new/tb_Multiplexor.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_Multiplexor.tcl
+close_sim
+launch_simulation
+source tb_Multiplexor.tcl
+close_sim
+launch_simulation
+source tb_Multiplexor.tcl
+close_sim
+launch_simulation
+source tb_Multiplexor.tcl
+close_sim
+launch_simulation
+source tb_Multiplexor.tcl
+close_sim

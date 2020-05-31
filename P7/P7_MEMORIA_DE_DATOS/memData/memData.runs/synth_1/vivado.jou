@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Apr  6 22:18:11 2020
+# Process ID: 3032
+# Current directory: C:/Users/aaron/OneDrive/Escritorio/P7_MEMORIA_DE_DATOS/memData/memData.runs/synth_1
+# Command line: vivado.exe -log memDatos.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source memDatos.tcl
+# Log file: C:/Users/aaron/OneDrive/Escritorio/P7_MEMORIA_DE_DATOS/memData/memData.runs/synth_1/memDatos.vds
+# Journal file: C:/Users/aaron/OneDrive/Escritorio/P7_MEMORIA_DE_DATOS/memData/memData.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source memDatos.tcl -notrace

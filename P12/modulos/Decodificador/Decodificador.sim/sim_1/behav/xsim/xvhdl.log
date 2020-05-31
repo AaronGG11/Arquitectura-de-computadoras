@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Aaron/Desktop/P12/Componentes/Decodificador/Decodificador.srcs/sources_1/new/Decodificador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Decodificador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Aaron/Desktop/P12/Componentes/Decodificador/Decodificador.srcs/sim_1/new/tb_Decodificador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_Decodificador'

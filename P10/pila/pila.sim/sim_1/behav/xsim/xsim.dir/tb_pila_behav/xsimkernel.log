@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_pila_behav/xsimk.exe -simmode gui -wdb tb_pila_behav.wdb -simrunnum 0 -socket 49174
+Design successfully loaded
+Design Loading Memory Usage: 4796 KB (Peak: 4796 KB)
+Design Loading CPU Usage: 46 ms

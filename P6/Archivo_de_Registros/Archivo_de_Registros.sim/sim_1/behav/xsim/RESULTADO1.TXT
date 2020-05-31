@@ -1,0 +1,1 @@
+  RR1  RR2 SHAM WREG   WD   WR  SHE  DIR  RD1  RD2
