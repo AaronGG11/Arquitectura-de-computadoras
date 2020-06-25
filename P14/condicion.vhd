@@ -14,7 +14,7 @@ entity condicion is
 end condicion;
 
 architecture Behavioral of condicion is
-    -- BANDERAS 0 - C, 1 - Z, 2- N, 3 - OV
+    -- BANDERAS : 3 - OV, 2- N, 1 - Z, 0 - C 
     signal C, Z, N, OV : STD_LOGIC;
     
     begin
