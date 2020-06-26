@@ -27,86 +27,126 @@ architecture Behavioral of control is
     
     asm : process(TIPOR, BEQI, BNEI, BLTI, BLETI, BGTI, BGETI, NA, EQ, NE, LT, LE, GT, GE, NA, estado_actual)
         begin
-        SM <= '0';
-        SDOPC <= '0';
-        
-        case estado_actual is
-            when A => estado_siguiente <= A;
-            if(TIPOR = '1') then
-                 SM <= '0'; -- No es necesaria por la inicializacion en 0's
-            else
-                if (BEQI = '1') then
-                    if (NA = '1') then
-                        SM <= '1';
+            SM <= '0';
+            SDOPC <= '0';
+            
+            case estado_actual is
+                when A =>
+                    if(TIPOR = '1') then
+                        SM <= '0';
                     else
-                        if (EQ = '1') then
-                            SM <= '1';
-                            SDOPC <= '1';
+                        if(BEQI = '0') then
+                            if (BNEI = '0') then
+                                if (BLTI = '0') then
+                                    if(BLETI = '0') then
+                                        if(BGTI = '0') then
+                                            if(BGETI = '0') then
+                                                SDOPC <= '1';
+                                                SM <= '1';
+                                                estado_siguiente <= A;
+                                            else
+                                                if(NA = '1') then 
+                                                    SDOPC <= '0';
+                                                    SM <= '1';
+                                                    estado_siguiente <= A;
+                                                else
+                                                    if(GE = '1') then
+                                                        SDOPC <= '1';
+                                                        SM <= '1';
+                                                        estado_siguiente <= A;
+                                                    else
+                                                        SDOPC <= '0';
+                                                        SM <= '1';
+                                                        estado_siguiente <= A;
+                                                    end if;
+                                                end if;
+                                            end if;
+                                        else
+                                            if(NA = '1') then
+                                                SDOPC <= '0';
+                                                SM <= '1';
+                                                estado_siguiente <= A;
+                                            else
+                                                if(GT = '1') then
+                                                    SDOPC <= '1';
+                                                    SM <= '1';
+                                                    estado_siguiente <= A;
+                                                else
+                                                    SDOPC <= '0';
+                                                    SM <= '1';
+                                                    estado_siguiente <= A;
+                                                end if;
+                                            end if;
+                                        end if;
+                                    else
+                                        if(NA = '1') then
+                                            SDOPC <= '0';
+                                            SM <= '1';
+                                            estado_siguiente <= A;
+                                        else
+                                            if(LE = '1') then
+                                                SDOPC <= '1';
+                                                SM <= '1';
+                                                estado_siguiente <= A;
+                                            else
+                                                SDOPC <= '0';
+                                                SM <= '1';
+                                                estado_siguiente <= A;
+                                            end if;
+                                        end if;
+                                    end if;
+                                else
+                                    if(NA = '1') then
+                                        SDOPC <= '0';
+                                        SM <= '1';
+                                        estado_siguiente <= A;
+                                    else
+                                        if(LT = '1') then
+                                            SDOPC <= '1';
+                                            SM <= '1';
+                                            estado_siguiente <= A;
+                                        else
+                                            SDOPC <= '0';
+                                            SM <= '1';
+                                            estado_siguiente <= A;
+                                        end if;
+                                    end if;
+                                end if;
+                            else
+                                if(NA = '1') then
+                                    SDOPC <= '0';
+                                    SM <= '1';
+                                    estado_siguiente <= A;
+                                else
+                                    if(NE = '1') then
+                                        SDOPC <= '1';
+                                        SM <= '1';
+                                        estado_siguiente <= A;
+                                    else
+                                        SDOPC <= '0';
+                                        SM <= '1';
+                                        estado_siguiente <= A;
+                                    end if;
+                                end if;
+                            end if;
                         else
-                            SM <= '1';
-                        end if;
-                    end if; 
-                elsif (BNEI = '1') then
-                    if (NA = '1') then
-                        sm <= '1';
-                    else
-                        if (NE = '1') then
-                            SDOPC <= '1';
-                            SM <= '1';
-                        else
-                            SM <= '1';
+                            if(NA = '1') then
+                                SDOPC <= '0';
+                                SM <= '1';
+                                estado_siguiente <= A;
+                            else
+                                if(EQ = '1') then
+                                    SDOPC <= '1';
+                                    SM <= '1';
+                                    estado_siguiente <= A;
+                                else
+                                    SDOPC <= '0';
+                                    SM <= '1';
+                                    estado_siguiente <= A;
+                                end if;
+                            end if;
                         end if;
                     end if;
-                elsif (BLTI = '1') then
-                    if (NA = '1') then
-                        SM <= '1';
-                    else
-                        if (LT = '1') then
-                            SDOPC <= '1';
-                            SM <= '1';
-                        else
-                            SM <= '1';
-                        end if;
-                    end if; 
-                elsif (BLETI = '1') then
-                    if (NA = '1') then 
-                        SM <= '1';
-                    else 
-                        if (LE = '1') then
-                            SDOPC <= '1';
-                            sm <= '1';
-                        else
-                            SM <= '1';
-                        end if;
-                    end if;
-                elsif (BGTI = '1') then
-                    if (NA = '1') then
-                        SM <= '1';
-                    else
-                        if (GT = '1') then
-                            SDOPC <= '1';
-                            SM <= '1';
-                        else
-                            SM <= '1';
-                        end if;
-                    end if;
-                elsif (BGETI = '1') then
-                    if (NA = '1') then
-                        SM <= '1';
-                    else
-                        if (GE = '1') then
-                            SDOPC <= '1';
-                            SM <= '1';
-                        else
-                            SM <= '1';
-                        end if;
-                    end if;
-                else
-                    SDOPC <= '1';
-                    SM <= '1';
-                end if;
-            end if;
-        end case;
+            end case;
     end process;
-
 end Behavioral;
