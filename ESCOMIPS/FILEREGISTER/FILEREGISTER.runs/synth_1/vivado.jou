@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jul  1 23:15:51 2020
+# Process ID: 3412
+# Current directory: C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.runs/synth_1
+# Command line: vivado.exe -log Archivo_Registro.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Archivo_Registro.tcl
+# Log file: C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.runs/synth_1/Archivo_Registro.vds
+# Journal file: C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Archivo_Registro.tcl -notrace

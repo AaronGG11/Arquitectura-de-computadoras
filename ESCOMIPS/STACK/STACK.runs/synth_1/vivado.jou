@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jul  1 22:55:53 2020
+# Process ID: 4840
+# Current directory: C:/Users/Aaron/Desktop/PYARQUI/STACK/STACK.runs/synth_1
+# Command line: vivado.exe -log pila.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pila.tcl
+# Log file: C:/Users/Aaron/Desktop/PYARQUI/STACK/STACK.runs/synth_1/pila.vds
+# Journal file: C:/Users/Aaron/Desktop/PYARQUI/STACK/STACK.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source pila.tcl -notrace

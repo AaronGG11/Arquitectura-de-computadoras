@@ -1,0 +1,29 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd" \
+"../../../../../ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd" \
+"../../../../../FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/CartaASM_UC.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/Condicion_UC.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/DecodificadorInstruccion_UC.vhd" \
+"../../../../../FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Demultiplexor_AR.vhd" \
+"../../../../ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd" \
+"../../../../../MEMDATA/MEMDATA.srcs/sources_1/new/MemoriaDatos.vhd" \
+"../../../../../MEMPROG/MEMPROG.srcs/sources_1/new/MemoriaPrograma.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MicrocodigoFuncion_UC.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MicrocodigoOpcode_UC.vhd" \
+"../../../../../FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Multiplexor16C_AR.vhd" \
+"../../../../../FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Multiplexor2C_AR.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MultiplexorSm_UC.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MuxSdopc_UC.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/Nivel_UC.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/RegistroEstados_UC.vhd" \
+"../../../../../FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd" \
+"../../../../../UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd" \
+"../../../../../FILEREGISTER/FILEREGISTER.srcs/sources_1/new/barrel_shifter.vhd" \
+"../../../../../STACK/STACK.srcs/sources_1/new/pila.vhd" \
+"../../../../../ALUN/ALUN.srcs/sources_1/new/sumador_1bit.vhd" \
+"../../../../ESCOMIPS.srcs/sim_1/new/ESCOMIPS_TB.vhd" \
+
+# Do not sort compile order
+nosort

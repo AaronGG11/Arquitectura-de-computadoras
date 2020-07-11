@@ -1,0 +1,580 @@
+
+*** Running vivado
+    with args -log ESCOMIPS.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ESCOMIPS.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source ESCOMIPS.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 425.770 ; gain = 128.457
+Command: synth_design -top ESCOMIPS -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5984 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 686.414 ; gain = 235.824
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ESCOMIPS' [C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd:15]
+INFO: [Synth 8-3491] module 'pila' declared at 'C:/Users/Aaron/Desktop/PYARQUI/STACK/STACK.srcs/sources_1/new/pila.vhd:7' bound to instance 'STACK' of component 'pila' [C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'pila' [C:/Users/Aaron/Desktop/PYARQUI/STACK/STACK.srcs/sources_1/new/pila.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'pila' (1#1) [C:/Users/Aaron/Desktop/PYARQUI/STACK/STACK.srcs/sources_1/new/pila.vhd:15]
+INFO: [Synth 8-3491] module 'MemoriaPrograma' declared at 'C:/Users/Aaron/Desktop/PYARQUI/MEMPROG/MEMPROG.srcs/sources_1/new/MemoriaPrograma.vhd:7' bound to instance 'MEMPROG' of component 'MemoriaPrograma' [C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'MemoriaPrograma' [C:/Users/Aaron/Desktop/PYARQUI/MEMPROG/MEMPROG.srcs/sources_1/new/MemoriaPrograma.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'MemoriaPrograma' (2#1) [C:/Users/Aaron/Desktop/PYARQUI/MEMPROG/MEMPROG.srcs/sources_1/new/MemoriaPrograma.vhd:13]
+INFO: [Synth 8-3491] module 'Archivo_Registro' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:5' bound to instance 'FILEREGISTER' of component 'Archivo_Registro' [C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'Archivo_Registro' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:13]
+INFO: [Synth 8-3491] module 'Demultiplexor_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Demultiplexor_AR.vhd:4' bound to instance 'Demux' of component 'Demultiplexor_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'Demultiplexor_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Demultiplexor_AR.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Demultiplexor_AR' (3#1) [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Demultiplexor_AR.vhd:11]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:14]
+	Parameter i bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Registro_AR' (4#1) [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:14]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Registro_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Registro_AR.vhd:4' bound to instance 'Reg' of component 'Registro_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:67]
+INFO: [Synth 8-3491] module 'Multiplexor16C_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Multiplexor16C_AR.vhd:4' bound to instance 'Mux1' of component 'Multiplexor16C_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'Multiplexor16C_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Multiplexor16C_AR.vhd:16]
+	Parameter I bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Multiplexor16C_AR' (5#1) [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Multiplexor16C_AR.vhd:16]
+INFO: [Synth 8-3491] module 'Multiplexor16C_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Multiplexor16C_AR.vhd:4' bound to instance 'Mux2' of component 'Multiplexor16C_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:97]
+INFO: [Synth 8-3491] module 'barrel_shifter' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/barrel_shifter.vhd:4' bound to instance 'barrel' of component 'barrel_shifter' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'barrel_shifter' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/barrel_shifter.vhd:17]
+	Parameter n bound to: 16 - type: integer 
+	Parameter c bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'barrel_shifter' (6#1) [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/barrel_shifter.vhd:17]
+INFO: [Synth 8-3491] module 'Multiplexor2C_AR' declared at 'C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Multiplexor2C_AR.vhd:4' bound to instance 'Mux_2c' of component 'Multiplexor2C_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:126]
+INFO: [Synth 8-638] synthesizing module 'Multiplexor2C_AR' [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Multiplexor2C_AR.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Multiplexor2C_AR' (7#1) [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Multiplexor2C_AR.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Archivo_Registro' (8#1) [C:/Users/Aaron/Desktop/PYARQUI/FILEREGISTER/FILEREGISTER.srcs/sources_1/new/Archivo_Registro.vhd:13]
+INFO: [Synth 8-3491] module 'Alu_16bits' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:6' bound to instance 'ALUN' of component 'Alu_16bits' [C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'Alu_16bits' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:15]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:12]
+INFO: [Synth 8-3491] module 'sumador_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/sumador_1bit.vhd:5' bound to instance 'suma' of component 'sumador_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'sumador_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/sumador_1bit.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'sumador_1bit' (9#1) [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/sumador_1bit.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Alu_1bit' (10#1) [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:12]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-3491] module 'Alu_1bit' declared at 'C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_1bit.vhd:6' bound to instance 'Al1' of component 'Alu_1bit' [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'Alu_16bits' (11#1) [C:/Users/Aaron/Desktop/PYARQUI/ALUN/ALUN.srcs/sources_1/new/Alu_16bits.vhd:15]
+INFO: [Synth 8-3491] module 'MemoriaDatos' declared at 'C:/Users/Aaron/Desktop/PYARQUI/MEMDATA/MEMDATA.srcs/sources_1/new/MemoriaDatos.vhd:8' bound to instance 'MEMDATA' of component 'MemoriaDatos' [C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'MemoriaDatos' [C:/Users/Aaron/Desktop/PYARQUI/MEMDATA/MEMDATA.srcs/sources_1/new/MemoriaDatos.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MemoriaDatos' (12#1) [C:/Users/Aaron/Desktop/PYARQUI/MEMDATA/MEMDATA.srcs/sources_1/new/MemoriaDatos.vhd:17]
+INFO: [Synth 8-3491] module 'UnidadControl' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:6' bound to instance 'UNITCONTROL' of component 'UnidadControl' [C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'UnidadControl' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:15]
+INFO: [Synth 8-3491] module 'CartaASM_UC' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/CartaASM_UC.vhd:5' bound to instance 'ASM' of component 'CartaASM_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'CartaASM_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/CartaASM_UC.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'CartaASM_UC' (13#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/CartaASM_UC.vhd:10]
+INFO: [Synth 8-3491] module 'Condicion_UC' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/Condicion_UC.vhd:5' bound to instance 'Con' of component 'Condicion_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'Condicion_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/Condicion_UC.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Condicion_UC' (14#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/Condicion_UC.vhd:10]
+INFO: [Synth 8-3491] module 'DecodificadorInstruccion_UC' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/DecodificadorInstruccion_UC.vhd:5' bound to instance 'Deco' of component 'DecodificadorInstruccion_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'DecodificadorInstruccion_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/DecodificadorInstruccion_UC.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'DecodificadorInstruccion_UC' (15#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/DecodificadorInstruccion_UC.vhd:10]
+INFO: [Synth 8-3491] module 'MicrocodigoFuncion_UC' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MicrocodigoFuncion_UC.vhd:7' bound to instance 'Funcion' of component 'MicrocodigoFuncion_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'MicrocodigoFuncion_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MicrocodigoFuncion_UC.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'MicrocodigoFuncion_UC' (16#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MicrocodigoFuncion_UC.vhd:13]
+INFO: [Synth 8-3491] module 'MicrocodigoOpcode_UC' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MicrocodigoOpcode_UC.vhd:7' bound to instance 'Opcode' of component 'MicrocodigoOpcode_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'MicrocodigoOpcode_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MicrocodigoOpcode_UC.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'MicrocodigoOpcode_UC' (17#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MicrocodigoOpcode_UC.vhd:12]
+INFO: [Synth 8-3491] module 'MuxSdopc_UC' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MuxSdopc_UC.vhd:4' bound to instance 'MuxSdopc' of component 'MuxSdopc_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'MuxSdopc_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MuxSdopc_UC.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'MuxSdopc_UC' (18#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MuxSdopc_UC.vhd:11]
+INFO: [Synth 8-3491] module 'MultiplexorSm_UC' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MultiplexorSm_UC.vhd:4' bound to instance 'MuxSm' of component 'MultiplexorSm_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'MultiplexorSm_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MultiplexorSm_UC.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'MultiplexorSm_UC' (19#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/MultiplexorSm_UC.vhd:11]
+INFO: [Synth 8-3491] module 'Nivel_UC' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/Nivel_UC.vhd:5' bound to instance 'Niv' of component 'Nivel_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'Nivel_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/Nivel_UC.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Nivel_UC' (20#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/Nivel_UC.vhd:10]
+INFO: [Synth 8-3491] module 'RegistroEstados_UC' declared at 'C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/RegistroEstados_UC.vhd:5' bound to instance 'Reg' of component 'RegistroEstados_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:155]
+INFO: [Synth 8-638] synthesizing module 'RegistroEstados_UC' [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/RegistroEstados_UC.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'RegistroEstados_UC' (21#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/RegistroEstados_UC.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'UnidadControl' (22#1) [C:/Users/Aaron/Desktop/PYARQUI/UNITCONTROL/UNITCONTROL.srcs/sources_1/new/UnidadControl.vhd:15]
+WARNING: [Synth 8-3936] Found unconnected internal register 'SDMD_reg' and it is trimmed from '16' to '10' bits. [C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd:140]
+INFO: [Synth 8-256] done synthesizing module 'ESCOMIPS' (23#1) [C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.srcs/sources_1/new/ESCOMIPS.vhd:15]
+WARNING: [Synth 8-3331] design Condicion_UC has unconnected port Rflags[3]
+WARNING: [Synth 8-3331] design Condicion_UC has unconnected port Rflags[2]
+WARNING: [Synth 8-3331] design CartaASM_UC has unconnected port clk
+WARNING: [Synth 8-3331] design CartaASM_UC has unconnected port clr
+WARNING: [Synth 8-3331] design MemoriaPrograma has unconnected port dir[9]
+WARNING: [Synth 8-3331] design MemoriaPrograma has unconnected port dir[8]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 759.461 ; gain = 308.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 759.461 ; gain = 308.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 759.461 ; gain = 308.871
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 759.461 ; gain = 308.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
++---XORs : 
+	   3 Input      1 Bit         XORs := 16    
+	   2 Input      1 Bit         XORs := 50    
++---Registers : 
+	               16 Bit    Registers := 24    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	 256 Input     25 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 18    
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 57    
+	   4 Input      1 Bit        Muxes := 16    
+	   8 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ESCOMIPS 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 6     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module pila 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 8     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 49    
+Module MemoriaPrograma 
+Detailed RTL Component Info : 
++---Muxes : 
+	 256 Input     25 Bit        Muxes := 1     
+Module Registro_AR 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module barrel_shifter 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 8     
+Module Multiplexor2C_AR 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module sumador_1bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module Alu_1bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+Module Alu_16bits 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module CartaASM_UC 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 6     
+Module DecodificadorInstruccion_UC 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      1 Bit        Muxes := 7     
+Module MuxSdopc_UC 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module MultiplexorSm_UC 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+Module Nivel_UC 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 2     
+Module RegistroEstados_UC 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design ESCOMIPS has port LECTURA_INSTRUCCION[15] driven by constant 0
+WARNING: [Synth 8-3917] design ESCOMIPS has port LECTURA_INSTRUCCION[14] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[0]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[0]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[0]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[0]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[0]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[0] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[1]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[1]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[1]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[1]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[1]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[1] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[2]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[2]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[2]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[2]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[2]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[2] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[3]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[3]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[3]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[3]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[3]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[3] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[4]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[4]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[4]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[4]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[4]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[4] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[5]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[5]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[5]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[5]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[5]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[5] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[6]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[6]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[6]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[6]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[6]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[6] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[7]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[7]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[7]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[7]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[7]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[7] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[8]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[8]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[8]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[8]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[8]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[8]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[8] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[9]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[9]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[9]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[9]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[9]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[9] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[10]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[10]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[10]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[10]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[10]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[10] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[11]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[11]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[11]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[11]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[11]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[11]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[11] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[12]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[12]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[12]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[12]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[12]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[12] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[13]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[13]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[13]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[13]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[13]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[13] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[14]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[14]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[14]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[14]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[14]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[14] )
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[14].Reg/q_reg[15]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[7].Reg/q_reg[15]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[6].Reg/q_reg[15]' (FDCE) to 'FILEREGISTER/registros[15].Reg/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[15].Reg/q_reg[15]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'FILEREGISTER/registros[12].Reg/q_reg[15]' (FDCE) to 'FILEREGISTER/registros[13].Reg/q_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FILEREGISTER/registros[13].Reg/q_reg[15] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:04:25 ; elapsed = 00:04:27 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+-----------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object      | Inference | Size (Depth x Width) | Primitives      | 
++------------+-----------------+-----------+----------------------+-----------------+
+|ESCOMIPS    | MEMDATA/aux_reg | Implied   | 1 K x 16             | RAM256X1S x 64	 | 
++------------+-----------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:04:26 ; elapsed = 00:04:28 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+-----------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object      | Inference | Size (Depth x Width) | Primitives      | 
++------------+-----------------+-----------+----------------------+-----------------+
+|ESCOMIPS    | MEMDATA/aux_reg | Implied   | 1 K x 16             | RAM256X1S x 64	 | 
++------------+-----------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:04:28 ; elapsed = 00:04:30 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:04:57 ; elapsed = 00:04:59 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:57 ; elapsed = 00:04:59 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:57 ; elapsed = 00:04:59 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:57 ; elapsed = 00:04:59 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:57 ; elapsed = 00:04:59 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:57 ; elapsed = 00:04:59 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     2|
+|2     |CARRY4    |     8|
+|3     |LUT1      |    13|
+|4     |LUT2      |    22|
+|5     |LUT3      |    98|
+|6     |LUT4      |    32|
+|7     |LUT5      |    48|
+|8     |LUT6      |   227|
+|9     |MUXF7     |     1|
+|10    |RAM256X1S |    64|
+|11    |FDCE      |   231|
+|12    |FDRE      |     1|
+|13    |IBUF      |     2|
+|14    |OBUF      |   105|
++------+----------+------+
+
+Report Instance Areas: 
++------+-----------------------+-------------------+------+
+|      |Instance               |Module             |Cells |
++------+-----------------------+-------------------+------+
+|1     |top                    |                   |   854|
+|2     |  FILEREGISTER         |Archivo_Registro   |   154|
+|3     |    \registros[0].Reg  |Registro_AR        |    45|
+|4     |    \registros[1].Reg  |Registro_AR_0      |    30|
+|5     |    \registros[2].Reg  |Registro_AR_1      |    28|
+|6     |    \registros[3].Reg  |Registro_AR_2      |    16|
+|7     |    \registros[4].Reg  |Registro_AR_3      |    16|
+|8     |    \registros[5].Reg  |Registro_AR_4      |    19|
+|9     |  MEMDATA              |MemoriaDatos       |    83|
+|10    |  STACK                |pila               |   494|
+|11    |  UNITCONTROL          |UnidadControl      |    13|
+|12    |    Niv                |Nivel_UC           |    10|
+|13    |    Reg                |RegistroEstados_UC |     3|
++------+-----------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:57 ; elapsed = 00:04:59 . Memory (MB): peak = 1190.039 ; gain = 739.449
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:04:57 ; elapsed = 00:04:59 . Memory (MB): peak = 1190.039 ; gain = 739.449
+Synthesis Optimization Complete : Time (s): cpu = 00:04:57 ; elapsed = 00:04:59 . Memory (MB): peak = 1190.039 ; gain = 739.449
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1190.039 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1190.039 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 64 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+204 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:05:11 ; elapsed = 00:05:14 . Memory (MB): peak = 1190.039 ; gain = 764.270
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1190.039 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Aaron/Desktop/PYARQUI/ESCOMIPS/ESCOMIPS.runs/synth_1/ESCOMIPS.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ESCOMIPS_utilization_synth.rpt -pb ESCOMIPS_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  2 01:24:40 2020...
