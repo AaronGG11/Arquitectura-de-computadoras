@@ -4,7 +4,7 @@ Curso tomado en la ESCOM, con la Maestra Nayeli Garcia Vega en el semestre 2020/
 Las practicas que realizamos: 
 
 |No.|Nombre|
-|---|---|
+|:---:|---|
 |1|Burbuja en C, introducción a ensamblador|
 |2|Sumador/restador con acarreo en cascada|
 |3|Sumador con acarreo anticipado|
